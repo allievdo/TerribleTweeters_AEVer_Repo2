@@ -15,7 +15,7 @@ E:/SIM 150 Game Systems/TerribleTweeters_Repo/Terrible Tweeters
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57331
+57463
 Successfully changed project path to: E:/SIM 150 Game Systems/TerribleTweeters_Repo/Terrible Tweeters
 E:/SIM 150 Game Systems/TerribleTweeters_Repo/Terrible Tweeters
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/SIM 150 Game Systems/TerribleTweeters_Repo/Terrible Tweeters
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 36.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.17f1 (efb8f635e7b1)
 [Subsystems] Discovering subsystems at path D:/Program Files/2021.2.17f1/Editor/Data/Resources/UnitySubsystems
@@ -63,39 +63,39 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/2021.2.17f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/2021.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/2021.2.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/2021.2.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/2021.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.041257 seconds.
+Registered in 0.002213 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 36.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.673 seconds
+- Completed reload, in  0.474 seconds
 Domain Reload Profiling:
-	ReloadAssembly (674ms)
+	ReloadAssembly (475ms)
 		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (492ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (335ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
+			SetupTypeCache (84ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (187ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (188ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (36ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadAttributes (107ms)
 				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -103,36 +103,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002820 seconds.
+Registered in 0.002747 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 36.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.219 seconds
+- Completed reload, in  1.202 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1219ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (1203ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1043ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (1024ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (157ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (747ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (728ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (622ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (600ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,13 +144,13 @@ Failed to load shader (instanceID 402, GUID e4e5d566a8aa9914c906555a6857fcb9)
 Failed to load shader (instanceID 400, GUID bedd19944f451ba4d83e7ed69be98d5c)
 Failed to load shader (instanceID 398, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Failed to load shader (instanceID 390, GUID 603d454d711fe784cba9ce08dd22b881)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2482 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (131.1 KB). Loaded Objects now: 2947.
 Memory consumption went from 110.9 MB to 110.8 MB.
-Total: 4.244700 ms (FindLiveObjects: 0.190700 ms CreateObjectMapping: 0.094800 ms MarkObjects: 3.882500 ms  DeleteObjects: 0.075900 ms)
+Total: 3.875800 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.081500 ms MarkObjects: 3.511000 ms  DeleteObjects: 0.089000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,139 +165,1609 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 142397.157621 seconds.
-  path: Assets/Art/UI/OutlineCircle.mat
-  artifactKey: Guid(5fb28b42664303542bc6f3ec002179b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/OutlineCircle.mat using Guid(5fb28b42664303542bc6f3ec002179b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb50715d6d2a817340039106130adb81') in 0.114772 seconds 
+  Time since last request: 143283.970675 seconds.
+  path: Assets/Art/Birds/BeekRedOpen2.png
+  artifactKey: Guid(0fa51d39f6960854fb7882c09580546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Birds/BeekRedOpen2.png using Guid(0fa51d39f6960854fb7882c09580546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e847d650fbc8b3bfa26abc73299749') in 0.111446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Birds/MeekGreenOpen1.png
+  artifactKey: Guid(ac8ae290dc70f3343b3ad7530587a83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Birds/MeekGreenOpen1.png using Guid(ac8ae290dc70f3343b3ad7530587a83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b8bd0271385d378f29182538fcd1cb') in 0.027691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Birds/MeekGreenClosed2.png
+  artifactKey: Guid(5c31d9af83af439448d88e311345b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Birds/MeekGreenClosed2.png using Guid(5c31d9af83af439448d88e311345b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba0f55774796c67494bd51760cb9e35') in 0.025706 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Art/Environment/Summer Ground.png
-  artifactKey: Guid(ff1562ecb64bba045ba4a05c088e28ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Environment/Summer Ground.png using Guid(ff1562ecb64bba045ba4a05c088e28ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b81a676a7959ed095db671b4783c4d') in 0.051525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Art/Monsters/MonsterPurpleOpen.png
-  artifactKey: Guid(6376e65d5cd1502458f627e6f98265e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Monsters/MonsterPurpleOpen.png using Guid(6376e65d5cd1502458f627e6f98265e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258ee695a097370221dc716abda28105') in 0.029670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Art/Environment/Summer Background.png
-  artifactKey: Guid(0b8bbf5199d0038458f583e0aa7b88f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Environment/Summer Background.png using Guid(0b8bbf5199d0038458f583e0aa7b88f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61976ba5d55995710c1dc849ae932b8') in 0.158245 seconds 
+  path: Assets/Art/Birds/BeekRedClosed1.png
+  artifactKey: Guid(961de39bc77b0e445977faf476142b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Birds/BeekRedClosed1.png using Guid(961de39bc77b0e445977faf476142b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177c359f5be11f3c6be525ce93ee69e5') in 0.027428 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Art/Monsters/MonsterPurpleClosed.png
-  artifactKey: Guid(70a60dad9c6f2aa42941b53edf1428e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Monsters/MonsterPurpleClosed.png using Guid(70a60dad9c6f2aa42941b53edf1428e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7984630c1811e9e2298e9b93dca0551b') in 0.024578 seconds 
+  path: Assets/Art/Birds/BeekRedOpen1.png
+  artifactKey: Guid(354e3b168c253dd4fb6a80ed1dad7358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Birds/BeekRedOpen1.png using Guid(354e3b168c253dd4fb6a80ed1dad7358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e580220cd8143828f0c616fdcdd008a') in 0.029238 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.100254 seconds.
-  path: Assets/Art/UI/OutlinedCircle.png
-  artifactKey: Guid(48aad9736ed0c5948b0642c495c6d2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/OutlinedCircle.png using Guid(48aad9736ed0c5948b0642c495c6d2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b75b74378274b98c8e8d04eaffaf2ab') in 0.022970 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Birds/MeekGreenClosed1.png
+  artifactKey: Guid(bad3d5cef29c0e941bcba6e9c538e8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Birds/MeekGreenClosed1.png using Guid(bad3d5cef29c0e941bcba6e9c538e8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4395aacd0b89c9b47875cf09a55b51f0') in 0.026308 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 676.208946 seconds.
-  path: Assets/Sounds
-  artifactKey: Guid(b9b8c0ed8576a7242b0e7ac3c84f27c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds using Guid(b9b8c0ed8576a7242b0e7ac3c84f27c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830875809915da3c9efb49b01132c03b') in 0.009702 seconds 
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Birds/BeekRedClosed2.png
+  artifactKey: Guid(bbafdc812f598d145bc33ae722fc38fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Birds/BeekRedClosed2.png using Guid(bbafdc812f598d145bc33ae722fc38fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cf764e4effe77b6872ee108f3824a6') in 0.028156 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.013913 seconds.
-  path: Assets/Sounds/BounceYoFrankie.flac
-  artifactKey: Guid(defe285d4678bf84585ad8cd2f9a915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/BounceYoFrankie.flac using Guid(defe285d4678bf84585ad8cd2f9a915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9055413a31214303c26fca513bd717d2') in 0.067156 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Birds/MeekGreenOpen2.png
+  artifactKey: Guid(e0b06f8373ac5b149b762c54c195f4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Birds/MeekGreenOpen2.png using Guid(e0b06f8373ac5b149b762c54c195f4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78907bdd080eef1eb3ae3518e14cdc8') in 0.028600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.220010 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_breaking_01.ogg
+  artifactKey: Guid(a8d57fb50b1059145bdc434b2443b429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_breaking_01.ogg using Guid(a8d57fb50b1059145bdc434b2443b429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cf69a9016c6e9d15646ce5189322f6') in 0.046250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_06.ogg
+  artifactKey: Guid(36224a39d88597043b9eed7cc6bfae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_06.ogg using Guid(36224a39d88597043b9eed7cc6bfae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbadd2935d731ae784c0bba9d1afe9a0') in 0.022176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_03.ogg
+  artifactKey: Guid(3a061605fcff73a439131a5a037ed4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_03.ogg using Guid(3a061605fcff73a439131a5a037ed4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b162aef84932b3f2ef977958a760a753') in 0.021035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_falling_01.ogg
+  artifactKey: Guid(8b82fbe125b290445ac8f3d010256aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_falling_01.ogg using Guid(8b82fbe125b290445ac8f3d010256aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbf10283b8cd04f0b9edcf458eed9a8') in 0.020654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_02.ogg
+  artifactKey: Guid(82ec844c579bd294f933c0f7d3b42215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_02.ogg using Guid(82ec844c579bd294f933c0f7d3b42215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17841b6a3d78196e1a49e5a09c2f65e0') in 0.020916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_03.ogg
+  artifactKey: Guid(232d5f02cc2257a419834df58d1e17fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_03.ogg using Guid(232d5f02cc2257a419834df58d1e17fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc161abd52cfd0cb1cb61d72dc593d9') in 0.022301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_falling_01.ogg
+  artifactKey: Guid(55a1613fad74fbb419beaa660b8b1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_falling_01.ogg using Guid(55a1613fad74fbb419beaa660b8b1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0948d85f6107532d833ca1036c7a3c26') in 0.022174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_03.ogg
+  artifactKey: Guid(91df62c8e3aafb945a5107e53e5df0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_03.ogg using Guid(91df62c8e3aafb945a5107e53e5df0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4d81bfb4eac9aef94002bd094de19b') in 0.021969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_falling_02.ogg
+  artifactKey: Guid(7deb5940cf7795347977b8c4dc0c40c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_falling_02.ogg using Guid(7deb5940cf7795347977b8c4dc0c40c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d364dc7ba787b2d9cf351ba5966ecc') in 0.026211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_04.ogg
+  artifactKey: Guid(aad3f4aa467f9f843bd9551f9770157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_04.ogg using Guid(aad3f4aa467f9f843bd9551f9770157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd088ba244cb27c077eb57bda874420') in 0.018994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_08.ogg
+  artifactKey: Guid(653d440aad2c83b4192b61c1f06c2e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_08.ogg using Guid(653d440aad2c83b4192b61c1f06c2e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620e55459ed8fe7254cb6de28f004fff') in 0.020688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_13.ogg
+  artifactKey: Guid(192c32d06b854614c927a46fc3cdd897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_13.ogg using Guid(192c32d06b854614c927a46fc3cdd897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4139a357eb9b57d19ac097207f0bd195') in 0.021822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_02.ogg
+  artifactKey: Guid(7de19011f78762649bbacd5ce5ef2878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_02.ogg using Guid(7de19011f78762649bbacd5ce5ef2878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de9ee0508d99c58866cea01bdc815fa') in 0.018876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_falling_02.ogg
+  artifactKey: Guid(5538aab644158584f99c471b4c6f1a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_falling_02.ogg using Guid(5538aab644158584f99c471b4c6f1a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09aa9b5d77fb8a852eef62221e81fd89') in 0.021775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_08.ogg
+  artifactKey: Guid(e875efb3659b2f141b3829f6b142dbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_08.ogg using Guid(e875efb3659b2f141b3829f6b142dbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8049b52d11e0f789664b157a534ae864') in 0.020259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_breaking_02.ogg
+  artifactKey: Guid(6d424c9ec7c8ff24ea04adb78479a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_breaking_02.ogg using Guid(6d424c9ec7c8ff24ea04adb78479a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51b8da46cd5164c88dcb9c097344e1d') in 0.017818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_01.ogg
+  artifactKey: Guid(a73835be951c1fa4386aaf53a1bfdfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_01.ogg using Guid(a73835be951c1fa4386aaf53a1bfdfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e1e5a354ce0278c4f64da2976a433a') in 0.022143 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Sounds/carnivalrides.ogg
-  artifactKey: Guid(91d3eb9245d68aa48bbb2b9183880ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/carnivalrides.ogg using Guid(91d3eb9245d68aa48bbb2b9183880ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdebd1fd53de9f1a74454bc1626b99c1') in 0.024756 seconds 
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_03.ogg
+  artifactKey: Guid(e57d6e6b6f1234a4fb9a38eb547f4b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_03.ogg using Guid(e57d6e6b6f1234a4fb9a38eb547f4b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f4ff3c849fcba2cf1a75bbc4ae79ea') in 0.018770 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.972215 seconds.
-  path: Assets/Sounds/mutant_frog
-  artifactKey: Guid(80cc1e451ab66ed448993173260d7195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/mutant_frog using Guid(80cc1e451ab66ed448993173260d7195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd63b481174c59f005f6df767565bb07') in 0.009307 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_06.ogg
+  artifactKey: Guid(50a2b3f7c8ccd974aac9bc8bbfabb798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_06.ogg using Guid(50a2b3f7c8ccd974aac9bc8bbfabb798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd55c359698d82ca05dad5f285e72c5c') in 0.024693 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.455339 seconds.
-  path: Assets/Sounds/30-cc0-weird-sfx
-  artifactKey: Guid(efe0e73f6dcfe1c4a8538278f97b2f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/30-cc0-weird-sfx using Guid(efe0e73f6dcfe1c4a8538278f97b2f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7258cd399e4e71b5932bbccc9c69e30') in 0.009666 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_07.ogg
+  artifactKey: Guid(423409ff0e604ca41a0684be34cbfa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_07.ogg using Guid(423409ff0e604ca41a0684be34cbfa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91880fa14035db6d8267308c1d2e1fd') in 0.018915 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.237165 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(9685325c74f8ae34ba83b57cd335cb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio using Guid(9685325c74f8ae34ba83b57cd335cb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929f0a860a1615c625cb0c187892c2b8') in 0.008887 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_05.ogg
+  artifactKey: Guid(64314e3a5d0fe1146a5c6e853b72a670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_05.ogg using Guid(64314e3a5d0fe1146a5c6e853b72a670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b7dd642ab2a9f5e6ea1e60e4943210') in 0.019291 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.547693 seconds.
-  path: Assets/Audio/Effects
-  artifactKey: Guid(8e02ab1ab60cf9c45bfee094b1a3fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Effects using Guid(8e02ab1ab60cf9c45bfee094b1a3fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215d0ce035fbc7113e89918625940869') in 0.008521 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_07.ogg
+  artifactKey: Guid(40f1ad3e9c3cabd4483a54983049fd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_07.ogg using Guid(40f1ad3e9c3cabd4483a54983049fd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd786f18e2382477e54d58ba5b6a235') in 0.019856 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.072499 seconds.
-  path: Assets/Audio/Effects/BounceYoFrankie.flac
-  artifactKey: Guid(5f5f46d7cd7e3634b8b1ccb9fc6ed1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Effects/BounceYoFrankie.flac using Guid(5f5f46d7cd7e3634b8b1ccb9fc6ed1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187fda2dfc567878d192a7cd3db548bd') in 0.013202 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_01.ogg
+  artifactKey: Guid(caaa0ea4095e2294fac15d6820b1b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_01.ogg using Guid(caaa0ea4095e2294fac15d6820b1b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9c6a620e68257d61cdd4777fdb9363') in 0.025731 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.180313 seconds.
-  path: Assets/Audio/Effects/sfx_breaking_and_falling
-  artifactKey: Guid(ae4c7003aa93839499e205925d68da46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Effects/sfx_breaking_and_falling using Guid(ae4c7003aa93839499e205925d68da46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31962ea16db04b68bf52490c9253943d') in 0.008929 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_05.ogg
+  artifactKey: Guid(cfa988781c4b45f4cabea655e455551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_05.ogg using Guid(cfa988781c4b45f4cabea655e455551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec3ae39571c6bc7d4477b6e50fe3707') in 0.020963 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.614251 seconds.
-  path: Assets/Audio/Effects/mutant_frog
-  artifactKey: Guid(244e371898a0e7f449cb0b5cfffe796d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Effects/mutant_frog using Guid(244e371898a0e7f449cb0b5cfffe796d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd4d8db1e31508b4a0b41f0309fa855') in 0.004763 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_breaking_01.ogg
+  artifactKey: Guid(c78a4cb600514994f869df418ae8b495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_breaking_01.ogg using Guid(c78a4cb600514994f869df418ae8b495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a242da2d81a8c74e0cbc48f1b22e45ba') in 0.019502 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.294206 seconds.
-  path: Assets/Audio/Effects/30-cc0-weird-sfx
-  artifactKey: Guid(4fadddb5b991bb443b368b0906284834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Effects/30-cc0-weird-sfx using Guid(4fadddb5b991bb443b368b0906284834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97140edce79d69e32ebc2c202c723f8') in 0.007098 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_breaking_01.ogg
+  artifactKey: Guid(ae720a091cbcf504b9b21fd97b91240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_breaking_01.ogg using Guid(ae720a091cbcf504b9b21fd97b91240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6624b41cafc03b2e06a252f7865f01') in 0.019645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_falling_02.ogg
+  artifactKey: Guid(c58e0b1fe88a90f4caeab2f416506bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_falling_02.ogg using Guid(c58e0b1fe88a90f4caeab2f416506bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749c1ad9223bf4ffad9276b5fde806f7') in 0.020862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_02.ogg
+  artifactKey: Guid(de1341328aed6154b9de8053e8e327ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_02.ogg using Guid(de1341328aed6154b9de8053e8e327ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6d23e842fbcd5c4911340de233d386') in 0.021805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_falling_05.ogg
+  artifactKey: Guid(c704d4d4413763147aec20715ed7e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_falling_05.ogg using Guid(c704d4d4413763147aec20715ed7e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05b51a38bbb207bf70a91e52e3d7dc9') in 0.022660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_05.ogg
+  artifactKey: Guid(74bddacf4e2f37f45a24c5deacb0d97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_05.ogg using Guid(74bddacf4e2f37f45a24c5deacb0d97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65167b6c97bf2309b851259f550ec3eb') in 0.021225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_03.ogg
+  artifactKey: Guid(7ac178f70b2b85745ae6580b76e3259c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_03.ogg using Guid(7ac178f70b2b85745ae6580b76e3259c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686a2897ceabddfa6ab59e64e3bbd1ab') in 0.018627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_07.ogg
+  artifactKey: Guid(5e49f0432417121499b122a48d4923cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_07.ogg using Guid(5e49f0432417121499b122a48d4923cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58aa406cf5e4107e9f91900bbd59107e') in 0.024161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_01.ogg
+  artifactKey: Guid(b2cacaee4e3c83f4b84d07a1b5b6734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_01.ogg using Guid(b2cacaee4e3c83f4b84d07a1b5b6734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026da307b7a570a83f307f553d92e5e2') in 0.018532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_04.ogg
+  artifactKey: Guid(cdce05cc0f66d2342b8ad3df3ff338da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_04.ogg using Guid(cdce05cc0f66d2342b8ad3df3ff338da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9ff172903a233fbc558501b58e92af') in 0.022600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_falling_04.ogg
+  artifactKey: Guid(35360331c0f88f54ca91b2a72b9c809e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_falling_04.ogg using Guid(35360331c0f88f54ca91b2a72b9c809e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04270f29e5ff97af4c22fb8b2bf8399b') in 0.025294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_04.ogg
+  artifactKey: Guid(691814771b4e25d4f97cabe0343890fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_04.ogg using Guid(691814771b4e25d4f97cabe0343890fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7402d57e02b6c3b575ab8c43ec0d46') in 0.020773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_06.ogg
+  artifactKey: Guid(1669bb3bb85a1d547ae9444dfde5932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_06.ogg using Guid(1669bb3bb85a1d547ae9444dfde5932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cd760ba935b1a5f489d036d4fe504b') in 0.018654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_06.ogg
+  artifactKey: Guid(5a6d59ece314cfa4a90dc920bbbaf8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_06.ogg using Guid(5a6d59ece314cfa4a90dc920bbbaf8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d6248b3fa4ef6be4d67d26c0380bce') in 0.018605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_03.ogg
+  artifactKey: Guid(11ab63a493f0dea4297f2d39ca163114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_03.ogg using Guid(11ab63a493f0dea4297f2d39ca163114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a148c35fc3d5fc5c8d1112b9461be7') in 0.019676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_05.ogg
+  artifactKey: Guid(9e62765374aabef4aa03ac17edd1c81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_05.ogg using Guid(9e62765374aabef4aa03ac17edd1c81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247ddead0fc051dcb8368d54c42b15bb') in 0.021448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_hit_01.ogg
+  artifactKey: Guid(552c7c1c62e9bec46bce51f1cc7a8e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_hit_01.ogg using Guid(552c7c1c62e9bec46bce51f1cc7a8e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1658e1d844165ddf9d4eaf9379c4d3ed') in 0.020538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_falling_01.ogg
+  artifactKey: Guid(f27610c7559e2f84ea35fe3addb2d6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_falling_01.ogg using Guid(f27610c7559e2f84ea35fe3addb2d6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790df98c408f0de8d139eba271525286') in 0.020412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_09.ogg
+  artifactKey: Guid(c7e6de154b8395c4a8e4f62c8c8cfa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_09.ogg using Guid(c7e6de154b8395c4a8e4f62c8c8cfa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c189c65a974f0a89f9a829214d1f8ed') in 0.020540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_11.ogg
+  artifactKey: Guid(423c73699d734284ebf0f55dcd312241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_11.ogg using Guid(423c73699d734284ebf0f55dcd312241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3554b686766811eaf3287f1f4d667cc3') in 0.018366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_06.ogg
+  artifactKey: Guid(be4ac7cd2be2f894bad72e9f7ea3c3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_06.ogg using Guid(be4ac7cd2be2f894bad72e9f7ea3c3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6411a2c27317ebb18b250f6bf7d51449') in 0.021219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_04.ogg
+  artifactKey: Guid(4aee71aab35621e489cc9dbf07f7fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_04.ogg using Guid(4aee71aab35621e489cc9dbf07f7fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc95a430656b0c8101ee72ac2c225be') in 0.018823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_hit_01.ogg
+  artifactKey: Guid(be95fa15113920a44ba401388dfc7c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_hit_01.ogg using Guid(be95fa15113920a44ba401388dfc7c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104da12181fda741fbf7a613b1d371b6') in 0.020515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_hit_02.ogg
+  artifactKey: Guid(d1b4b7fcbb117ac4abfac5f279ec8b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_hit_02.ogg using Guid(d1b4b7fcbb117ac4abfac5f279ec8b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c5c60e88450a9c77ae807b8a3c932f') in 0.022773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_breaking_03.ogg
+  artifactKey: Guid(a7caffd1fc3f6c749871e2216790595b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_breaking_03.ogg using Guid(a7caffd1fc3f6c749871e2216790595b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a264d62c24daeb0828deb8b7af2a9f8') in 0.020164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_hit_02.ogg
+  artifactKey: Guid(b73b08c39eb363b42ad67ea5d5fe488a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_hit_02.ogg using Guid(b73b08c39eb363b42ad67ea5d5fe488a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cc909879f53b3f0e14cb0ebaa2b220') in 0.022247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_02.ogg
+  artifactKey: Guid(d534006a4d1b83a46b9a31360fef5c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_02.ogg using Guid(d534006a4d1b83a46b9a31360fef5c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89b0caf94fcf83211afbfe643ac1be5') in 0.019791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_09.ogg
+  artifactKey: Guid(09b850855da3b91448af95344c4f98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_09.ogg using Guid(09b850855da3b91448af95344c4f98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a27f36eb0a286d7879b7854e817fbc') in 0.018710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_breaking_04.ogg
+  artifactKey: Guid(51043f4585b561d4c82568fcd6cd1360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_breaking_04.ogg using Guid(51043f4585b561d4c82568fcd6cd1360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89925f49ff1d606d44495ba4f2542697') in 0.021639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_hit_03.ogg
+  artifactKey: Guid(62795735d1f762949978d4ab1a2f028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_hit_03.ogg using Guid(62795735d1f762949978d4ab1a2f028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4e8d7e8cbe12f9bbad4f7e26ea75d4') in 0.019466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_01.ogg
+  artifactKey: Guid(25932b14c93520a4b9457c985e7ab102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_01.ogg using Guid(25932b14c93520a4b9457c985e7ab102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b11ef585f5fa5dc6910a6cc50ef778') in 0.018979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_10.ogg
+  artifactKey: Guid(a1fb409ba9c6aee42b0cace4e735ebc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_10.ogg using Guid(a1fb409ba9c6aee42b0cace4e735ebc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0b8792984799fbb796e73b10fcb332') in 0.018232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_05.ogg
+  artifactKey: Guid(7dfb0582210ec6845ba29552bc1996a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_05.ogg using Guid(7dfb0582210ec6845ba29552bc1996a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dd02e784ed64a3d24fd84b5b010bbc') in 0.020176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_04.ogg
+  artifactKey: Guid(7ca1c0644b07aee468ac5d7655813d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_04.ogg using Guid(7ca1c0644b07aee468ac5d7655813d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f083aa6f73b138bffe4de97d2cabeef') in 0.019188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_07.ogg
+  artifactKey: Guid(71cdbfd2c03ed844ba971ea986b7623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_07.ogg using Guid(71cdbfd2c03ed844ba971ea986b7623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf2e8dd9e0f38cd7e7837f5a928f9fb') in 0.020662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_02.ogg
+  artifactKey: Guid(7badf5072feee6b409ace59b8dcf713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_falling_02.ogg using Guid(7badf5072feee6b409ace59b8dcf713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969a5433e1d748905c34f43767861d69') in 0.019831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_breaking_03.ogg
+  artifactKey: Guid(5022a8412f3d9b9489bde174f311bec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_breaking_03.ogg using Guid(5022a8412f3d9b9489bde174f311bec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3883a4f183ee12e4e2a5ea3c54a2a2') in 0.022172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_12.ogg
+  artifactKey: Guid(e0ba0f41636b40e4a9ed97499c0218ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_hit_12.ogg using Guid(e0ba0f41636b40e4a9ed97499c0218ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8a5e310a55ed1170f241bbb386ce84') in 0.021893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_falling_04.ogg
+  artifactKey: Guid(e0bef3f497cacac41b4191e82a7e4837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_falling_04.ogg using Guid(e0bef3f497cacac41b4191e82a7e4837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7f6615b3d4f8dea00bbf81e13a11c7') in 0.020037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_05.ogg
+  artifactKey: Guid(180d09a226f23104bbf9b0c0b3fb9a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_05.ogg using Guid(180d09a226f23104bbf9b0c0b3fb9a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76d9894458e6907384268dd8a329ee9') in 0.022105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_01.ogg
+  artifactKey: Guid(709b7ed27ddad29468cded192500b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_misc_01.ogg using Guid(709b7ed27ddad29468cded192500b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff7ea9ee93b33a9efad5ef51f7ba438') in 0.019454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_breaking_02.ogg
+  artifactKey: Guid(38e6bedbb129d0243a847da62e2b93ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_breaking_02.ogg using Guid(38e6bedbb129d0243a847da62e2b93ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdda46563d5db3b79df3687952b6659') in 0.019437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_01.ogg
+  artifactKey: Guid(cb24ab5facb8c0243b475a308d5ba380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_01.ogg using Guid(cb24ab5facb8c0243b475a308d5ba380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9553022475f176fe1df32a1b8c6d8ca3') in 0.021512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_falling_03.ogg
+  artifactKey: Guid(1ecd92f3494affb45bc350bd6e91379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_falling_03.ogg using Guid(1ecd92f3494affb45bc350bd6e91379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5894a10ce14bc5084b8f27a97c0fa459') in 0.022148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_hit_01.ogg
+  artifactKey: Guid(b737e2f7801076340a5464414f84aacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_hit_01.ogg using Guid(b737e2f7801076340a5464414f84aacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7aa500882eacceb7672461856e4f53') in 0.019502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_02.ogg
+  artifactKey: Guid(626bab9687390b74097387e482c35018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_hit_02.ogg using Guid(626bab9687390b74097387e482c35018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac5082bd72b91c9e08beb0a1227a5c4') in 0.020669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_breaking_02.ogg
+  artifactKey: Guid(2ef6f13a748947342a7c217508a4cd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_breaking_02.ogg using Guid(2ef6f13a748947342a7c217508a4cd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9dfffaa5cd10e6204baa85be97b696') in 0.020857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_breaking_03.ogg
+  artifactKey: Guid(62982e718adddc1488798219a5a9458b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_wood_breaking_03.ogg using Guid(62982e718adddc1488798219a5a9458b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1703d9b5b06712fa0beb71973d52c36b') in 0.019769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_04.ogg
+  artifactKey: Guid(b36c2cad436971740b9ba32bd037bc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_glass_breaking_04.ogg using Guid(b36c2cad436971740b9ba32bd037bc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00eeccf4a99417dde512eaaf9c6e1324') in 0.018174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_06.ogg
+  artifactKey: Guid(d5ae2e8e600d1984ea695509524296df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_rock_falling_06.ogg using Guid(d5ae2e8e600d1984ea695509524296df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f420a748cb4f1654d16b005bcda238ba') in 0.021144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_falling_03.ogg
+  artifactKey: Guid(8e8432210b1193d4db2eab2a29972c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/sfx_breaking_and_falling/bfh1_metal_falling_03.ogg using Guid(8e8432210b1193d4db2eab2a29972c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2309ff3bbd395976320ef617d835506a') in 0.021877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.769361 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_breaking_01.ogg
+  artifactKey: Guid(b54fb0031286fe74d8e38f77c7e785bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_breaking_01.ogg using Guid(b54fb0031286fe74d8e38f77c7e785bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4820e68d1e5bb8572d8d9d0569ef81d6') in 0.017139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_breaking_03.ogg
+  artifactKey: Guid(1994d0a790576474c80391ab512b80e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_breaking_03.ogg using Guid(1994d0a790576474c80391ab512b80e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603fba140cb7c41136a4ca9321a85141') in 0.017734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_breaking_02.ogg
+  artifactKey: Guid(dac5236fafec25549b9421217fa9e39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_breaking_02.ogg using Guid(dac5236fafec25549b9421217fa9e39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46ac28f3bd83abd90a263d04cedd7b2') in 0.018998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_hit_02.ogg
+  artifactKey: Guid(ac36a489455f847438c8e7c92423daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_hit_02.ogg using Guid(ac36a489455f847438c8e7c92423daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776236dae4ca21ff9473b616a3929b5e') in 0.017943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_falling_02.ogg
+  artifactKey: Guid(c69e9f3b428491e4ea0cdb769b056802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_falling_02.ogg using Guid(c69e9f3b428491e4ea0cdb769b056802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cbc10e7f71bb1a5ddecffb69b41982') in 0.014324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_hit_03.ogg
+  artifactKey: Guid(a684e610b83b70d4c91377dea1c8a5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_hit_03.ogg using Guid(a684e610b83b70d4c91377dea1c8a5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0284d8ff12b0bac52f13bde2a9ef2e40') in 0.014555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_falling_01.ogg
+  artifactKey: Guid(916d3113241c84e4580239bfb4d8eae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_falling_01.ogg using Guid(916d3113241c84e4580239bfb4d8eae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069e71b107cf70afb31e024fdc75a3e8') in 0.019787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_breaking_04.ogg
+  artifactKey: Guid(a25813e8aa3f39b4098989c08befd33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_breaking_04.ogg using Guid(a25813e8aa3f39b4098989c08befd33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651274a84e6b77061c6235662c1a7c58') in 0.013848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_hit_01.ogg
+  artifactKey: Guid(3660f4a6ff5154b4dac71022b9301120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_wood_hit_01.ogg using Guid(3660f4a6ff5154b4dac71022b9301120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e31c8b3f9a8dbbab1fa15896f63f518') in 0.016622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.916735 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_01.ogg
+  artifactKey: Guid(52ac86629a6686f4f835bb448386d5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_01.ogg using Guid(52ac86629a6686f4f835bb448386d5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1964c917ac823c0408df67f7ebe6dadd') in 0.021489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_04.ogg
+  artifactKey: Guid(b6625dbaec991e7428c4afb6cd730566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_04.ogg using Guid(b6625dbaec991e7428c4afb6cd730566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d9a9f95b23a35b5c21fc7db90b6b51') in 0.019207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_21.ogg
+  artifactKey: Guid(64aa649fbb8aff5459f503579511795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_21.ogg using Guid(64aa649fbb8aff5459f503579511795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6187f69f94767941763f46ca332b04e') in 0.024171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_06.ogg
+  artifactKey: Guid(85a2dc984eefd474a8c1f3e39bd57a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_06.ogg using Guid(85a2dc984eefd474a8c1f3e39bd57a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f2c7bb7e4f2cc79e522d15e34d03c5') in 0.025246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_16.ogg
+  artifactKey: Guid(8b8da71df78c00b46a91a1656a7849ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_16.ogg using Guid(8b8da71df78c00b46a91a1656a7849ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5be6becfce01bbb6926c0b07a1e493') in 0.020241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_10.ogg
+  artifactKey: Guid(3dec3671ad51fbd41bec8f41d281f7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_10.ogg using Guid(3dec3671ad51fbd41bec8f41d281f7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e155b4dcde9f4fa85ebb0f3d1171a1d') in 0.019465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_08.ogg
+  artifactKey: Guid(e92ca0450268672418f42281397c8bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_08.ogg using Guid(e92ca0450268672418f42281397c8bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf20c4bc2c828a6b80bd838004eae3b') in 0.023527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_13.ogg
+  artifactKey: Guid(5af93639f1d750543946ad3f67393569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_13.ogg using Guid(5af93639f1d750543946ad3f67393569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd3c28cb02a9cfe3e1104096ea80e01') in 0.018523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_20.ogg
+  artifactKey: Guid(77c7a0a64250fec469b46b41c54de1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_20.ogg using Guid(77c7a0a64250fec469b46b41c54de1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ba51a889890e641199c5758922e5db') in 0.022392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_23.ogg
+  artifactKey: Guid(f6d25898741c13d4dbb90ebf8c76e7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_23.ogg using Guid(f6d25898741c13d4dbb90ebf8c76e7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39ce827292bc11371e4c93065fe9767') in 0.022859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_12.ogg
+  artifactKey: Guid(29e6dc1999b624f42997ac2949234be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_12.ogg using Guid(29e6dc1999b624f42997ac2949234be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab008b1c5b6b55c3dbd4bc5c794960d') in 0.022508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_18.ogg
+  artifactKey: Guid(b8b6af1381e0eb341a326bd2622175e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_18.ogg using Guid(b8b6af1381e0eb341a326bd2622175e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ed0e5639fd5124357834af722cb3ef') in 0.022135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_26.ogg
+  artifactKey: Guid(edb4649cb84099c4e83868c47a18a57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_26.ogg using Guid(edb4649cb84099c4e83868c47a18a57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7fb8d8b6ec1c524a7e364e7b87b51c') in 0.019709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_28.ogg
+  artifactKey: Guid(ee064f7f7a56ce2488880d63db224ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_28.ogg using Guid(ee064f7f7a56ce2488880d63db224ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a23c16afe1264afe4fc3be0d1d80f2') in 0.021856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_24.ogg
+  artifactKey: Guid(bcaa364e354f0114ba785432d41901a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_24.ogg using Guid(bcaa364e354f0114ba785432d41901a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250e4d6e8f526adee513d2baef54412b') in 0.025039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_07.ogg
+  artifactKey: Guid(af25708914f0b1d41b48552c1e203283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_07.ogg using Guid(af25708914f0b1d41b48552c1e203283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2d0940e2b3176dac9a33971514df03') in 0.020064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_19.ogg
+  artifactKey: Guid(2775f38773ebc6a4490fe0710d825e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_19.ogg using Guid(2775f38773ebc6a4490fe0710d825e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360b1312a3e6cc29d64de8bfb8411785') in 0.021300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_15.ogg
+  artifactKey: Guid(6017f3fa7e82cd548a1f863e0dea85b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_15.ogg using Guid(6017f3fa7e82cd548a1f863e0dea85b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345ad55e4934025a001a796120636507') in 0.020966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_11.ogg
+  artifactKey: Guid(54869530e1e915f48902d8c91eb895d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_11.ogg using Guid(54869530e1e915f48902d8c91eb895d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f32388679ae64b5290ced94e66a1bea') in 0.021266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_14.ogg
+  artifactKey: Guid(2e7bf90cb8a9ae74fa3b5e2eafaca440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_14.ogg using Guid(2e7bf90cb8a9ae74fa3b5e2eafaca440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1329aa89aa359e1902020b2d25356938') in 0.022934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_30.ogg
+  artifactKey: Guid(a593cda28ed873d468863f75fb5ad42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_30.ogg using Guid(a593cda28ed873d468863f75fb5ad42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1295bfd8f4ed304e921a1c1c846b6e') in 0.025513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_05.ogg
+  artifactKey: Guid(bdb43f5a08157ba48ab89fee8e87ff6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_05.ogg using Guid(bdb43f5a08157ba48ab89fee8e87ff6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294e5e029d9b297322df96415de887bd') in 0.020975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_03.ogg
+  artifactKey: Guid(143c8c1f628276e4ead3e7727f6c70b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_03.ogg using Guid(143c8c1f628276e4ead3e7727f6c70b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91dcb911cc02de71ab5a82342a8f898') in 0.023828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_29.ogg
+  artifactKey: Guid(1710913aedd0cb347b138ea14db901f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_29.ogg using Guid(1710913aedd0cb347b138ea14db901f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17c750c7d54d6df36438afb2de6fd59') in 0.025088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_09.ogg
+  artifactKey: Guid(dde9bcbd9a189994499c0993fa96d7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_09.ogg using Guid(dde9bcbd9a189994499c0993fa96d7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4fbd4a758e419177424f45cabfd4b9') in 0.022427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_27.ogg
+  artifactKey: Guid(f137189d1d922f742a5644ac8da76deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_27.ogg using Guid(f137189d1d922f742a5644ac8da76deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a4881ca9cd9313c2044d401826b692') in 0.020788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_22.ogg
+  artifactKey: Guid(e3acb71f18f95624ab5130c36a85c727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_22.ogg using Guid(e3acb71f18f95624ab5130c36a85c727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ad79814a31f44dd96bf05b64d79265') in 0.021320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_02.ogg
+  artifactKey: Guid(a174e9806f8cda240811d07eda9cc4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_02.ogg using Guid(a174e9806f8cda240811d07eda9cc4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12070345ea063b4426301f7407b2a745') in 0.018301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_25.ogg
+  artifactKey: Guid(44620f95ab279644a81ab9391c1467f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_25.ogg using Guid(44620f95ab279644a81ab9391c1467f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b486c77e8684ca3b309e27b7513e1c80') in 0.022405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Effects/30-cc0-weird-sfx/weird_17.ogg
+  artifactKey: Guid(87270e29dc037f249a0072449dde9ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/30-cc0-weird-sfx/weird_17.ogg using Guid(87270e29dc037f249a0072449dde9ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9e7d36336c860274ffbf2b2792163b') in 0.021722 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002482 seconds.
+Registered in 0.002720 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.999 seconds
+- Completed reload, in  0.984 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1000ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (985ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (808ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 402, GUID e4e5d566a8aa9914c906555a6857fcb9)
+Failed to load shader (instanceID 400, GUID bedd19944f451ba4d83e7ed69be98d5c)
+Failed to load shader (instanceID 398, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 390, GUID 603d454d711fe784cba9ce08dd22b881)
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (97.3 KB). Loaded Objects now: 2973.
+Memory consumption went from 114.6 MB to 114.5 MB.
+Total: 3.383600 ms (FindLiveObjects: 0.188600 ms CreateObjectMapping: 0.089900 ms MarkObjects: 3.073800 ms  DeleteObjects: 0.030500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.450562 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling
+  artifactKey: Guid(1a3ae055927dec94494967fe170fa21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling using Guid(1a3ae055927dec94494967fe170fa21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb30e6f5e934148d8f58e128cf72e95') in 0.010890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.218223 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_01.ogg
+  artifactKey: Guid(5cac5096a799d2d48927675cd4eff528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_01.ogg using Guid(5cac5096a799d2d48927675cd4eff528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe9cc87a3f3ed682ed800ef90561552') in 0.040817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_23.ogg
+  artifactKey: Guid(f4cc3e862b79eb3429465fafa1d3d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_23.ogg using Guid(f4cc3e862b79eb3429465fafa1d3d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8add5963deb789155c1ddbb05e8437') in 0.022540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_10.ogg
+  artifactKey: Guid(c2bf61c4419f3c34eaba4e7c04a2d643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_10.ogg using Guid(c2bf61c4419f3c34eaba4e7c04a2d643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015c6cee05fd2179bdbf38459c91ed8a') in 0.015164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_22.ogg
+  artifactKey: Guid(2dfff1ac07579a947b075583a53a6e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_22.ogg using Guid(2dfff1ac07579a947b075583a53a6e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a7628bdcb3f6a7aa7f8fd4f9e5ceba') in 0.020451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_21.ogg
+  artifactKey: Guid(d9bb6094567ed5d42b1d21ad6ae2274a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_21.ogg using Guid(d9bb6094567ed5d42b1d21ad6ae2274a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ea1e8706ccbe24c99978e6bbec9d9d') in 0.021473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_11.ogg
+  artifactKey: Guid(c3722a402023ee84b9995b00e4af24c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_11.ogg using Guid(c3722a402023ee84b9995b00e4af24c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea71617e2bf37a72cbf3412d8175892') in 0.018796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_08.ogg
+  artifactKey: Guid(d724e7d9910c6a745ad388037a5ee5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_08.ogg using Guid(d724e7d9910c6a745ad388037a5ee5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03e234099ba26f243f8371d71419673') in 0.019726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_18.ogg
+  artifactKey: Guid(f4d4d5a0eaee9054e88c0cd0d123e473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_18.ogg using Guid(f4d4d5a0eaee9054e88c0cd0d123e473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c29d604601f42fb865b980cc8e8d11') in 0.015545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_05.ogg
+  artifactKey: Guid(54f147a0061b7e94a8c295e931f3cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_05.ogg using Guid(54f147a0061b7e94a8c295e931f3cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a9f2c55b0ef06076e3beb0cfe5ad19') in 0.014500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_04.ogg
+  artifactKey: Guid(78bb2ec9f46084048a355b9fe55a24bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_04.ogg using Guid(78bb2ec9f46084048a355b9fe55a24bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d05156a94da0cdab2b2defb31f0d84') in 0.014215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_30.ogg
+  artifactKey: Guid(627003f704d400b4a86b8e18ff5a7c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_30.ogg using Guid(627003f704d400b4a86b8e18ff5a7c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e5f747aa5320f52a137df83b8c86c2') in 0.017577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_06.ogg
+  artifactKey: Guid(e5286c8dbef7d88429562ebba5c877da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_06.ogg using Guid(e5286c8dbef7d88429562ebba5c877da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b89e406b4c7932a1c46b724f9d7fcc8') in 0.020281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_25.ogg
+  artifactKey: Guid(bb7fc072afd9413488b6b9e63937bc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_25.ogg using Guid(bb7fc072afd9413488b6b9e63937bc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0c962c269fd56cd8b1b18cb4e01308') in 0.013215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_16.ogg
+  artifactKey: Guid(d575ed2563c789941ac286cf4df7cd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_16.ogg using Guid(d575ed2563c789941ac286cf4df7cd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1553cefc6453c762dc5ed0042c785926') in 0.014055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_28.ogg
+  artifactKey: Guid(2003d20ade3bd6d42bd1e37ade66fc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_28.ogg using Guid(2003d20ade3bd6d42bd1e37ade66fc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e5abd40c1a28d64c9bca44acef2d0c') in 0.017272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_26.ogg
+  artifactKey: Guid(ce793722681d22343af2c6a9dc22575f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_26.ogg using Guid(ce793722681d22343af2c6a9dc22575f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0defd62baaa378ee7cba82cc119af9df') in 0.014201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_19.ogg
+  artifactKey: Guid(e8bc141c6ec0cb545bcb5773ed32d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_19.ogg using Guid(e8bc141c6ec0cb545bcb5773ed32d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa5d6ae8e113a84380016a8d00e59a1') in 0.015780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_14.ogg
+  artifactKey: Guid(df33e05880e49774da6ab4657b2ce1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_14.ogg using Guid(df33e05880e49774da6ab4657b2ce1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c02b3f257577ae8a4a47f63c11de7f2') in 0.018194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_09.ogg
+  artifactKey: Guid(ecae8c1b21d5bea45841c81f1b6e9b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_09.ogg using Guid(ecae8c1b21d5bea45841c81f1b6e9b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717c21e135e15c1e462700f393223406') in 0.016689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_13.ogg
+  artifactKey: Guid(6a555ee24a6409e409a0348a819bedc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_13.ogg using Guid(6a555ee24a6409e409a0348a819bedc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82fc91c7cfc36369e7656b5b057fd8b') in 0.015364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_29.ogg
+  artifactKey: Guid(d474622c314437f4cb09dd49970cabff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_29.ogg using Guid(d474622c314437f4cb09dd49970cabff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c969b7d9cff2f5383ec9e9f8f2729bf0') in 0.015528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_17.ogg
+  artifactKey: Guid(876415633d90fb441aaa5df059544d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_17.ogg using Guid(876415633d90fb441aaa5df059544d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e69c7f99fb4d71efc40f7047049b614') in 0.017300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_03.ogg
+  artifactKey: Guid(35fef34cf82ec454e9d29c192e6b5bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_03.ogg using Guid(35fef34cf82ec454e9d29c192e6b5bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ceaebe8996302b6d87eac5ced4a365') in 0.015001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_07.ogg
+  artifactKey: Guid(c081c926ab5af0144a4c6236ee670f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_07.ogg using Guid(c081c926ab5af0144a4c6236ee670f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7519866e9fecc6c553137f05d3eaed4') in 0.014467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_20.ogg
+  artifactKey: Guid(e17b6e9768af3974694b76eef9371019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_20.ogg using Guid(e17b6e9768af3974694b76eef9371019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754c9c7cb052b6b40fbc7083ccc8425b') in 0.014996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_12.ogg
+  artifactKey: Guid(98551d539e7357d4781a87033001a087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_12.ogg using Guid(98551d539e7357d4781a87033001a087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4eac0c2b4f30ce1ff652f4bc65c4e7') in 0.020666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_27.ogg
+  artifactKey: Guid(c3a787abaaeea134fa3c0dbf1d789f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_27.ogg using Guid(c3a787abaaeea134fa3c0dbf1d789f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de905d14d07c8cb652acec0a724d5dee') in 0.018426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_15.ogg
+  artifactKey: Guid(035458f31a3f09541bf84b5f585e7dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_15.ogg using Guid(035458f31a3f09541bf84b5f585e7dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5558092b6f76d8de379509dd21e17c68') in 0.017039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_02.ogg
+  artifactKey: Guid(7cee3125bb130db47bb500858161f0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_02.ogg using Guid(7cee3125bb130db47bb500858161f0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c60ef2402b1bd3c62e86a5abf96805f') in 0.013378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/30-cc0-weird-sfx/weird_24.ogg
+  artifactKey: Guid(32b94bbbcd820604782477ff8c529459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/30-cc0-weird-sfx/weird_24.ogg using Guid(32b94bbbcd820604782477ff8c529459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51a3920cacfd70ecd5e0a49c49d9660') in 0.021369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.501081 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_breaking_01.ogg
+  artifactKey: Guid(f11ace191a291014899af212d68468ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_breaking_01.ogg using Guid(f11ace191a291014899af212d68468ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f824043041d31754956b6cd10c13d4') in 0.014315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_03.ogg
+  artifactKey: Guid(60a88199b0c779f4bbd990f16143a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_03.ogg using Guid(60a88199b0c779f4bbd990f16143a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59383d49ae332151c6242d5aaca48d9') in 0.017262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_08.ogg
+  artifactKey: Guid(ab1223928c93f2f4d98a854c85d22ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_08.ogg using Guid(ab1223928c93f2f4d98a854c85d22ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e3356efbc54b6253457f1a000eaf2a') in 0.016875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_04.ogg
+  artifactKey: Guid(45401e87c64acce4e81ac226229c18e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_04.ogg using Guid(45401e87c64acce4e81ac226229c18e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d47128773dacffc145fa606729e2fe') in 0.013227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_breaking_02.ogg
+  artifactKey: Guid(6d53f41868396304fa7f360bae4cc69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_breaking_02.ogg using Guid(6d53f41868396304fa7f360bae4cc69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096ae6a36393575e7fad35511df6fefe') in 0.014054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_02.ogg
+  artifactKey: Guid(68c20e7f0dfb12a48867e77f602054b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_02.ogg using Guid(68c20e7f0dfb12a48867e77f602054b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b586335e0dc2148f567f631ec2c23024') in 0.017999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_09.ogg
+  artifactKey: Guid(b2152ec1844883d4a9e126fc5e7effa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_09.ogg using Guid(b2152ec1844883d4a9e126fc5e7effa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382bd25912cee1c05b1f680dc305002d') in 0.013517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_05.ogg
+  artifactKey: Guid(5a16044ec27cf8c4595a7df9771445e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_05.ogg using Guid(5a16044ec27cf8c4595a7df9771445e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb93073e2443b6b92d7eec6a2c29efc3') in 0.013968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_falling_04.ogg
+  artifactKey: Guid(0e02c170e4f099b44859aa814d235756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_falling_04.ogg using Guid(0e02c170e4f099b44859aa814d235756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc7d94776b46e461549334f89df8993') in 0.013195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_04.ogg
+  artifactKey: Guid(16eab0fd71d3a024dbedae5a30f90f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_04.ogg using Guid(16eab0fd71d3a024dbedae5a30f90f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6646b43aad76f5ebea6501907144de47') in 0.016713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_breaking_03.ogg
+  artifactKey: Guid(ddc21cd5cfcd90e4ea66d3f4ba29a463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_breaking_03.ogg using Guid(ddc21cd5cfcd90e4ea66d3f4ba29a463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a304983bce950ce05b6097fda2b9739f') in 0.017818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_05.ogg
+  artifactKey: Guid(0014a2081dbd7014f9666f7712ea3bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_05.ogg using Guid(0014a2081dbd7014f9666f7712ea3bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb67becda4a6e43a1e6ffa3b9a778bd') in 0.014123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_01.ogg
+  artifactKey: Guid(06ee235519f5e0b4dbaa600051fda094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_01.ogg using Guid(06ee235519f5e0b4dbaa600051fda094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7081cb04fe1c3cf3cc9b841aa54b9015') in 0.015479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_falling_02.ogg
+  artifactKey: Guid(10fcd827af9bbc94ba79d7d0bdfbcc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_falling_02.ogg using Guid(10fcd827af9bbc94ba79d7d0bdfbcc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465c83588107ef112063265eb5ea4c9c') in 0.020184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_falling_03.ogg
+  artifactKey: Guid(95af7e90b73f69742af70328eedf9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_falling_03.ogg using Guid(95af7e90b73f69742af70328eedf9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53933bbb6ca27717d4eccdb0319c9cd') in 0.014065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_04.ogg
+  artifactKey: Guid(8ce10139456a97e4f95f45381b285fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_04.ogg using Guid(8ce10139456a97e4f95f45381b285fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4631e6846f9666be91aa4b046f7b40b4') in 0.018584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_01.ogg
+  artifactKey: Guid(24bbfbb60841e0648b49f7272742a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_01.ogg using Guid(24bbfbb60841e0648b49f7272742a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9773dba4c747e1b7fdde5e901535c94c') in 0.015516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_03.ogg
+  artifactKey: Guid(4f62eac9a3732544d9c8a0cd4293dd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_03.ogg using Guid(4f62eac9a3732544d9c8a0cd4293dd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e576794ae4a5c82ade39e2c3eb6e2962') in 0.022304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_04.ogg
+  artifactKey: Guid(eea1a0faae078c84baa8447dade771a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_04.ogg using Guid(eea1a0faae078c84baa8447dade771a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76a3659e79285884ca57f7d0f8934ca') in 0.019000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_03.ogg
+  artifactKey: Guid(628f148e7ab20b042aa0a98853c70de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_03.ogg using Guid(628f148e7ab20b042aa0a98853c70de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7949833736ff98e727bad401f78f2c7') in 0.017069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_falling_04.ogg
+  artifactKey: Guid(224e05a3a2a65c14da2a4ed620882dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_falling_04.ogg using Guid(224e05a3a2a65c14da2a4ed620882dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332b3d1c9766a76ed058840c0525c1a7') in 0.015980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_01.ogg
+  artifactKey: Guid(d2af093439e6b364ca738ab82233d299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_01.ogg using Guid(d2af093439e6b364ca738ab82233d299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58a7be4c0fd1fe4a511c7ec018b7f21') in 0.018993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_13.ogg
+  artifactKey: Guid(7323f2ca1048026468894a69b5d1236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_13.ogg using Guid(7323f2ca1048026468894a69b5d1236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a38b012151e5693fa39a3b2f2e71e6e') in 0.017999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_07.ogg
+  artifactKey: Guid(9939f445aa893cc49b8633064da1a274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_07.ogg using Guid(9939f445aa893cc49b8633064da1a274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2594a2d9918a58d0b6acd581ad1ddea') in 0.017713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_falling_05.ogg
+  artifactKey: Guid(267de800c8bcec64cbe4752bb1f7483a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_falling_05.ogg using Guid(267de800c8bcec64cbe4752bb1f7483a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3a4dc985bf6ab3c828d91458097e81') in 0.020450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_02.ogg
+  artifactKey: Guid(8d19dc42ab6449a45ab36c9b8d867ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_02.ogg using Guid(8d19dc42ab6449a45ab36c9b8d867ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bfd96c7225b544a007ff0d62a3c15d') in 0.022320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_hit_01.ogg
+  artifactKey: Guid(520f0c2834c377e46a5be16c58365df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_hit_01.ogg using Guid(520f0c2834c377e46a5be16c58365df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b442ee01dbad8f6ea2a019fac19c8e93') in 0.020540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_10.ogg
+  artifactKey: Guid(fe89752c06cb4d443a99c4304ba2676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_10.ogg using Guid(fe89752c06cb4d443a99c4304ba2676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508cdc36ca90dd5ef0a1ee760d59b3ee') in 0.019002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_falling_02.ogg
+  artifactKey: Guid(98348d924ae304446843dc74b1129b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_falling_02.ogg using Guid(98348d924ae304446843dc74b1129b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e1d6c6314e13fa9be9eecca4fa8e81') in 0.016162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_breaking_03.ogg
+  artifactKey: Guid(a98484b5687c4c94eae550421b360664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_breaking_03.ogg using Guid(a98484b5687c4c94eae550421b360664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b532ab3fcf26efad3d7ab97212a781a2') in 0.016253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_01.ogg
+  artifactKey: Guid(df56f8921fe5a2b43b60c8eed931f6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_01.ogg using Guid(df56f8921fe5a2b43b60c8eed931f6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd71db20191b9887d3051924f9574071') in 0.014314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_05.ogg
+  artifactKey: Guid(28d4929813c1c1843aff654c77e92c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_05.ogg using Guid(28d4929813c1c1843aff654c77e92c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6cfceeb13d3b2ae6cdf69eb9781cc9') in 0.014742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_breaking_01.ogg
+  artifactKey: Guid(769926bd0a7db1840a675e670954e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_breaking_01.ogg using Guid(769926bd0a7db1840a675e670954e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf576460d20f59df7048a5cbeae34268') in 0.021295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_06.ogg
+  artifactKey: Guid(94856da0b80eb9b44b177a520027120e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_06.ogg using Guid(94856da0b80eb9b44b177a520027120e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e5d85b7283890e75ddda83db3aa916') in 0.019170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_05.ogg
+  artifactKey: Guid(9c22c3ef74badca4b8c61f190af152fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_05.ogg using Guid(9c22c3ef74badca4b8c61f190af152fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc35cf8e0bb2731b50a361accdccf319') in 0.019712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_11.ogg
+  artifactKey: Guid(18e10ba8946ecfe478dfa686cc64e416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_11.ogg using Guid(18e10ba8946ecfe478dfa686cc64e416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831c42ba1d338d939008fa31e56b7a21') in 0.022825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_02.ogg
+  artifactKey: Guid(e021c0a4752280e42b4027ea49298307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_02.ogg using Guid(e021c0a4752280e42b4027ea49298307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6c65e9bcbd86f6478680654db2c9a6') in 0.018612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_05.ogg
+  artifactKey: Guid(b3183cfce6fe40347ba02dc9b982bbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_05.ogg using Guid(b3183cfce6fe40347ba02dc9b982bbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2e31b8ba58e3b848f4b277a6afb2cd') in 0.016084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_12.ogg
+  artifactKey: Guid(ea9c139c61dd6c1468eb5dda39ab0d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_12.ogg using Guid(ea9c139c61dd6c1468eb5dda39ab0d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225b54faa3eac0dc7893baf09bd791a8') in 0.015914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_falling_01.ogg
+  artifactKey: Guid(08411e71189f83a47af91b47e9ee5295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_falling_01.ogg using Guid(08411e71189f83a47af91b47e9ee5295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a1970a80baeca8b36ce2621f3a198e') in 0.013519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_04.ogg
+  artifactKey: Guid(fef0a3c17e096d7439669d2ba42d1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_04.ogg using Guid(fef0a3c17e096d7439669d2ba42d1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965c01f95125523de73b6e74e2e80032') in 0.018997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_02.ogg
+  artifactKey: Guid(2e6b637174340bf43ae308862ebcb04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_02.ogg using Guid(2e6b637174340bf43ae308862ebcb04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec031826772d133f1074a9e3d1b3581') in 0.023925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_01.ogg
+  artifactKey: Guid(439c6f03ba7c5e5439348d8dced65d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_01.ogg using Guid(439c6f03ba7c5e5439348d8dced65d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3592a0146fd6c90b6013641d2c55ba73') in 0.017323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_07.ogg
+  artifactKey: Guid(ca6137fc263fe6a44969cf78fa98a8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_07.ogg using Guid(ca6137fc263fe6a44969cf78fa98a8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972e79636271cd263c9662bd7f8b2fa7') in 0.016688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_06.ogg
+  artifactKey: Guid(4744a9c89494b5142bf333e24315413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_06.ogg using Guid(4744a9c89494b5142bf333e24315413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cea7ccb77e2882cbff172137652ec22') in 0.018476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_breaking_02.ogg
+  artifactKey: Guid(a719ceb01547d7d428ea96ae5526536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_breaking_02.ogg using Guid(a719ceb01547d7d428ea96ae5526536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95155d96aaab9bd04ac604f7eadb5c4') in 0.020056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_08.ogg
+  artifactKey: Guid(8547a0dd88ed43149ba9ddc7df8658ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_08.ogg using Guid(8547a0dd88ed43149ba9ddc7df8658ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732dcc8c306f7604a6038f5e3d8ad9e6') in 0.018960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_03.ogg
+  artifactKey: Guid(65fdbad2cc2777c4aaf06178789bd21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_03.ogg using Guid(65fdbad2cc2777c4aaf06178789bd21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47500a6036248942fe18c8d3d859e5d1') in 0.014833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_06.ogg
+  artifactKey: Guid(58d1e529be232f14facea15d4acc81c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_06.ogg using Guid(58d1e529be232f14facea15d4acc81c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04aebe7533aea3d830eda7d1ae0cdd1') in 0.014496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_07.ogg
+  artifactKey: Guid(92cc4cf208f0e454d8868ada09a273d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_07.ogg using Guid(92cc4cf208f0e454d8868ada09a273d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6169ac1238daafb675cc26e05df5b642') in 0.017111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_02.ogg
+  artifactKey: Guid(14b5c36939744ef4d9dbe2a40c5daf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_02.ogg using Guid(14b5c36939744ef4d9dbe2a40c5daf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9830a280d6fe93f7471a319a8f6488c2') in 0.016548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_06.ogg
+  artifactKey: Guid(8710fc5112c591a4cb14f97b023cde9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_falling_06.ogg using Guid(8710fc5112c591a4cb14f97b023cde9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75054dd00c576ea293fb7a71eb1b171d') in 0.013520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_07.ogg
+  artifactKey: Guid(8a7f06000f6ae404b858bf0eebb60aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_07.ogg using Guid(8a7f06000f6ae404b858bf0eebb60aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e2b6743440217005a6c085aff9dc31') in 0.013878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_09.ogg
+  artifactKey: Guid(aaa84b944e8d07042aad203d9ec5b4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_09.ogg using Guid(aaa84b944e8d07042aad203d9ec5b4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ce7f817f933b7892c58a51a520b2e6') in 0.014839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_03.ogg
+  artifactKey: Guid(502a1927f830894498f24b8c12ca37b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_03.ogg using Guid(502a1927f830894498f24b8c12ca37b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d39630a8aa44f27841fc21bc83c668') in 0.017139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_hit_01.ogg
+  artifactKey: Guid(03876e27990e33048bac033fe46cff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_hit_01.ogg using Guid(03876e27990e33048bac033fe46cff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf27245153045225d6d92948fd38de57') in 0.013895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_06.ogg
+  artifactKey: Guid(ccec500d25c405446a16b2cc29368831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_rock_falling_06.ogg using Guid(ccec500d25c405446a16b2cc29368831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ecf335d4e2b4435bf83af5a67b4ede') in 0.017300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_falling_01.ogg
+  artifactKey: Guid(2b48743f1bcfa734aac62a15ef422825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_falling_01.ogg using Guid(2b48743f1bcfa734aac62a15ef422825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5f7465d22894984bef09a8dc02e2e4') in 0.018830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_01.ogg
+  artifactKey: Guid(e0c81c94165e5ac4e9cb2dfe96a4a7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_hit_01.ogg using Guid(e0c81c94165e5ac4e9cb2dfe96a4a7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ad9d98874def24e8b618f08eb00b30') in 0.017960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_04.ogg
+  artifactKey: Guid(e2a9d7b0890fc7446bb4a536efa332ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_04.ogg using Guid(e2a9d7b0890fc7446bb4a536efa332ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43fca4487704d844090e14cc2d1a166') in 0.014393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_02.ogg
+  artifactKey: Guid(3f56d1918e2532149808294fa8770c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_02.ogg using Guid(3f56d1918e2532149808294fa8770c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f0453549f383ed88d9207b6f7c4445') in 0.020269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_03.ogg
+  artifactKey: Guid(a2b2a53c2bef5aa4e8143fb14e6e5507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_misc_03.ogg using Guid(a2b2a53c2bef5aa4e8143fb14e6e5507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8be82611f64e089481cc97a8098e92') in 0.021834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_05.ogg
+  artifactKey: Guid(44b2913a4436ece429a8f250033e26d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_breaking_05.ogg using Guid(44b2913a4436ece429a8f250033e26d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083f7ac767845827614fe1acfa17b6fd') in 0.019921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_06.ogg
+  artifactKey: Guid(6371d65543609ef43885c7e05b553708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_hit_06.ogg using Guid(6371d65543609ef43885c7e05b553708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28cec4934bc6100283d77b9493d7448') in 0.015696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_hit_02.ogg
+  artifactKey: Guid(e81c3cc728860854e9623001f0f2ff2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_glass_hit_02.ogg using Guid(e81c3cc728860854e9623001f0f2ff2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f607a5d64ee52899b84c486294af5a') in 0.021673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_falling_03.ogg
+  artifactKey: Guid(955131c7b8c989547b0592f369f49c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/sfx_breaking_and_falling/bfh1_metal_falling_03.ogg using Guid(955131c7b8c989547b0592f369f49c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659cd3b420f46523fc1de8e913f162bc') in 0.017601 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002564 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (962ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (785ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 402, GUID e4e5d566a8aa9914c906555a6857fcb9)
+Failed to load shader (instanceID 400, GUID bedd19944f451ba4d83e7ed69be98d5c)
+Failed to load shader (instanceID 398, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 390, GUID 603d454d711fe784cba9ce08dd22b881)
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (97.3 KB). Loaded Objects now: 2988.
+Memory consumption went from 115.3 MB to 115.2 MB.
+Total: 3.809900 ms (FindLiveObjects: 0.222300 ms CreateObjectMapping: 0.119500 ms MarkObjects: 3.438200 ms  DeleteObjects: 0.029100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002448 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Domain Reload Profiling:
+	ReloadAssembly (935ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (809ms)
-			LoadAssemblies (60ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (758ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
+			SetupTypeCache (158ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (468ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (460ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
+				BeforeProcessingInitializeOnLoad (61ms)
 				ProcessInitializeOnLoadAttributes (346ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 402, GUID e4e5d566a8aa9914c906555a6857fcb9)
+Failed to load shader (instanceID 400, GUID bedd19944f451ba4d83e7ed69be98d5c)
+Failed to load shader (instanceID 398, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 390, GUID 603d454d711fe784cba9ce08dd22b881)
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (97.3 KB). Loaded Objects now: 3003.
+Memory consumption went from 115.3 MB to 115.2 MB.
+Total: 4.477300 ms (FindLiveObjects: 0.188600 ms CreateObjectMapping: 0.094800 ms MarkObjects: 4.164900 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81.562844 seconds.
+  path: Assets/Sounds/mutant_frog/mutant_frog-1.ogg
+  artifactKey: Guid(71c29e04879be0047985d8fb2e9c6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/mutant_frog/mutant_frog-1.ogg using Guid(71c29e04879be0047985d8fb2e9c6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bd51793575050b651997da9890d804') in 0.049071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sounds/mutant_frog/mutant_frog-2.wav
+  artifactKey: Guid(9e8bfdf8ea213b847b01c2dc6f0c2ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/mutant_frog/mutant_frog-2.wav using Guid(9e8bfdf8ea213b847b01c2dc6f0c2ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998a784c14d18849f22817c2f4939b4f') in 0.020512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sounds/mutant_frog/mutant_frog-2.ogg
+  artifactKey: Guid(4f14f8d4acf65234cb5e1d303595eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/mutant_frog/mutant_frog-2.ogg using Guid(4f14f8d4acf65234cb5e1d303595eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6f698d701695803521dc63fc11be12') in 0.018155 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002509 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (932ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (758ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 402, GUID e4e5d566a8aa9914c906555a6857fcb9)
+Failed to load shader (instanceID 400, GUID bedd19944f451ba4d83e7ed69be98d5c)
+Failed to load shader (instanceID 398, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 390, GUID 603d454d711fe784cba9ce08dd22b881)
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (97.4 KB). Loaded Objects now: 3018.
+Memory consumption went from 115.3 MB to 115.2 MB.
+Total: 3.678500 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.120200 ms MarkObjects: 3.281800 ms  DeleteObjects: 0.044300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Domain Reload Profiling:
+	ReloadAssembly (961ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -307,12 +1777,12 @@ Failed to load shader (instanceID 402, GUID e4e5d566a8aa9914c906555a6857fcb9)
 Failed to load shader (instanceID 400, GUID bedd19944f451ba4d83e7ed69be98d5c)
 Failed to load shader (instanceID 398, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Failed to load shader (instanceID 390, GUID 603d454d711fe784cba9ce08dd22b881)
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (97.4 KB). Loaded Objects now: 3011.
-Memory consumption went from 114.7 MB to 114.6 MB.
-Total: 4.035500 ms (FindLiveObjects: 0.396300 ms CreateObjectMapping: 0.205100 ms MarkObjects: 3.404500 ms  DeleteObjects: 0.028600 ms)
+Unloading 19 unused Assets / (97.4 KB). Loaded Objects now: 3033.
+Memory consumption went from 115.2 MB to 115.1 MB.
+Total: 2.996500 ms (FindLiveObjects: 0.220200 ms CreateObjectMapping: 0.096100 ms MarkObjects: 2.640100 ms  DeleteObjects: 0.039200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -331,12 +1801,12 @@ Failed to load shader (instanceID 402, GUID e4e5d566a8aa9914c906555a6857fcb9)
 Failed to load shader (instanceID 400, GUID bedd19944f451ba4d83e7ed69be98d5c)
 Failed to load shader (instanceID 398, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Failed to load shader (instanceID 390, GUID 603d454d711fe784cba9ce08dd22b881)
-Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 29.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (92.6 KB). Loaded Objects now: 3011.
-Memory consumption went from 65.4 MB to 65.3 MB.
-Total: 3.627100 ms (FindLiveObjects: 0.168100 ms CreateObjectMapping: 0.074500 ms MarkObjects: 3.344000 ms  DeleteObjects: 0.040000 ms)
+Unloading 19 unused Assets / (94.7 KB). Loaded Objects now: 3033.
+Memory consumption went from 65.9 MB to 65.8 MB.
+Total: 3.940500 ms (FindLiveObjects: 0.180100 ms CreateObjectMapping: 0.098400 ms MarkObjects: 3.620600 ms  DeleteObjects: 0.040800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -349,36 +1819,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 402, GUID e4e5d566a8aa9914c906555a6857fcb9)
-Failed to load shader (instanceID 400, GUID bedd19944f451ba4d83e7ed69be98d5c)
-Failed to load shader (instanceID 398, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 390, GUID 603d454d711fe784cba9ce08dd22b881)
-Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (92.7 KB). Loaded Objects now: 3011.
-Memory consumption went from 65.4 MB to 65.3 MB.
-Total: 3.818900 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.091200 ms MarkObjects: 3.526000 ms  DeleteObjects: 0.025200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003060 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
